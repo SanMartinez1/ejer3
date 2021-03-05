@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+        <link rel="stylesheet" type="text/css" href="susti3.css">
+
+</head>
+<body onmousemove="position(event)">
+	<div id="mousePositions" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;">X: , Y:</div>
+	<div id="fsdf" class="letras">Fuera</div>
+	<div class="cuadrito"></div>
+<script>
+function position(event){
+var x = event.clientX; 
+var y = event.clientY; 
+var mousePositions = document.getElementById('mousePositions')
+var jyu = document.getElementById('fsdf')
+mousePositions.innerHTML = 'X:  '+x+' , Y:  '+y; 
+if (x>546&&x<955 && y>197&&y<394) {
+	jyu.innerHTML = 'Dentro'; 
+}
+else{
+	jyu.innerHTML = 'Fuera'; 
+}
+}
+</script>
+
+
+
+	<button onclick="acti3()" style="position: absolute;top: 83%; left: 85%; width: 150px; height: 100px; z-index: 10; background: #8792A0; border-radius: 20px; border;"> Regreso. </button>
+</div>
+<script>
+    function acti3() {
+        window.location.href = "https://sanmartinez1.github.io/intervalo/";
+    
+     
+            }
+</script>
+
+
+</body>
+</html>

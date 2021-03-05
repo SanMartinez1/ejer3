@@ -1,0 +1,22 @@
+body{
+     background:linear-gradient(to bottom, #ED6C91 20%, #E5192F 80%) fixed no-repeat;
+     background-size: cover;
+ }
+.cuadrito{
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 30%;
+	height: 30%;
+	background: #E52219
+}
+.letras{
+	position: absolute;
+	top: 41%;
+	left: 51%;
+	width: 30%;
+	height: 30%;
+	font-size: 40px;
+	z-index: 4000;
+}
+
